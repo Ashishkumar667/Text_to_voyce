@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1>Text to Speech</h1>
+        <textarea id="text-input" placeholder="Enter text here..."></textarea>
+        <div class="controls">
+            <button id="speak-btn">Speak</button>
+            <select id="voice-select"></select>
+        </div>
+    </div>
+    <div class="auth-controls">
+        <form action="/user/logout" method="GET">
+            <button type="submit" id="logout-btn">Logout</button>
+        </form>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
