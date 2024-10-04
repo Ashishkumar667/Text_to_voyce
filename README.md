@@ -12,7 +12,6 @@ A full-stack web application that allows users to input text and convert it to s
   - [Running the Application](#running-the-application)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
